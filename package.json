@@ -1,16 +1,23 @@
 {
   "name": "smooth-tools",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Functions I want to share across my \"smooth\" branded projects ",
   "main": "lib/index.js",
+  "homepage": "https://github.com/KhalfaniW/smooth-tools",
   "scripts": {
-    "prepublish": "babel src -d lib",
+    "prepare": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "khalfaniw",
   "license": "MIT",
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
     "seedrandom": "^3.0.5"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
   },
   "devDependencies": {
     "@babel/cli": "^7.12.16",
