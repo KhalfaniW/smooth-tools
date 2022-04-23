@@ -2,3 +2,6 @@
   Group utility functions together to avoid copying and pasting code
   
   + Random number tools 
+
+  Also works in browser
+  

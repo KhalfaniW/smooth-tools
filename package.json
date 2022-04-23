@@ -1,11 +1,11 @@
 {
-  "name": "smooth-tools",
-  "version": "1.0.2",
-  "description": "Functions I want to share across my \"smooth\" branded projects ",
+  "name": "khalfaniw-tools",
+  "version": "1.0.4",
+  "description": "Functions I want to use across projects ",
   "main": "lib/index.js",
   "homepage": "https://github.com/KhalfaniW/smooth-tools",
   "scripts": {
-    "prepare": "babel src -d lib",
+    "prepare": "babel src -d lib; browserify lib/index.js -o lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "khalfaniw",
@@ -22,6 +22,17 @@
   "devDependencies": {
     "@babel/cli": "^7.12.16",
     "@babel/core": "^7.12.16",
-    "@babel/preset-env": "^7.12.16"
+    "@babel/preset-env": "^7.12.16",
+    "browserify": "^17.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhalfaniW/smooth-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KhalfaniW/smooth-tools/issues"
   }
 }

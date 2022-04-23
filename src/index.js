@@ -1,7 +1,5 @@
-import {
-  getRandomNumberGroup,
-  getRandomBoolean,
-  getRandomIntInclusive,
-} from "./random-tools.js";
+import * as random from "./random-tools.js";
+import * as dataApi from "./data-api.js";
 
-export {getRandomNumberGroup, getRandomBoolean, getRandomIntInclusive};
+
+export {random, dataApi};
